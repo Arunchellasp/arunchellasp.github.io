@@ -873,8 +873,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #c40feb;
+  box-shadow: 0px 5px 10px #c40feb;
   text-align: center;
 }
 .morebtn .btn span {
@@ -888,7 +888,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  color: #000000;
+  background: #D9C2FB;
+  box-shadow: 0px 5px 10px #D9C2FB;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -915,9 +917,9 @@ header .navbar ul li a:hover {
   }
   .experience .container::before {
     left: 61px;
-    border: medium solid #f68c09;
+    border: medium solid #D9C2FB;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #f68c09 transparent transparent;
+    border-color: transparent #D9C2FB transparent transparent;
   }
   .experience .left::after {
     left: 15px;
