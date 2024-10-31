@@ -346,6 +346,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
+  min-height: 70vh;
   background: rgb(255, 255, 255);
 }
 .about .row {
@@ -534,8 +535,8 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #F5F5F5;
-  min-height: 40vh;
+  background: #ffffff;
+  min-height: 30vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -932,15 +933,15 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #ffffff;
   min-height: 60vh;
 }
 .contact .container {
   max-width: 1050px;
   width: 100%;
-  background: #fff;
+  background: #E8E6E9;
   border-radius: 1.5rem;
-  margin: 2rem 5rem;
+  margin: 2rem 16rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
@@ -978,7 +979,7 @@ form i {
   position: absolute;
   top: 50%;
   left: 18px;
-  color: rgb(51, 51, 51);
+  color: rgb(0, 0, 0);
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
@@ -992,8 +993,8 @@ form .message textarea {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
-  border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  border: 1px solid #D9C2FB;
+  background: #D9C2FB;
 }
 .field input::placeholder,
 .message textarea::placeholder {
@@ -1002,11 +1003,11 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid #D9C2FB;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
+  color: #D9C2FB;
 }
 form .message {
   position: relative;
