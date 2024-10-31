@@ -534,8 +534,8 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
-  min-height: 80vh;
+  background: #F5F5F5;
+  min-height: 40vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -562,7 +562,7 @@ header .navbar ul li a:hover {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: rgb(252, 252, 252);
+  background: #D9C2FB;
 }
 .education .box-container .box:hover {
   transform: scale(1.03);
@@ -588,7 +588,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #012970;
+  color: #000000;
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -601,7 +601,7 @@ header .navbar ul li a:hover {
 }
 .education h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: rgb(0, 0, 0);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;
