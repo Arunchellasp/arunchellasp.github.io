@@ -37,11 +37,11 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
+   // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("H2vPVjb_qW4A8QOMf");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('service_xndrha7', 'template_xntlibj', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -52,6 +52,7 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+
     // <!-- emailjs to mail contact form data -->
 
 });
