@@ -1,8 +1,8 @@
 [
   {
-    "name": "NotyStack equipments ",
-    "desc": "Fully fledged equipments  CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackequipments ",
+    "name": "Pressure-tolerant Li-Po Battery",
+    "desc": " Trained with Ictineu (Spain) for Manned submersible ICTINEU-3  148V DC – 10,36 kWh Pressure-tolerant Li-Po Battery integration and service",
+    "image": "Ictineu",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
@@ -10,9 +10,9 @@
     }
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepequipments ",
+    "name": "Underwater acoustic modems ",
+    "desc": "Trained with EvoLogics (Germany) for acoustic modem integration and service",
+    "image": "EvoLogics",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
@@ -20,9 +20,9 @@
     }
   },
   {
-    "name": "NewsBox equipments ",
-    "desc": "Native equipments  app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxequipments ",
+    "name": "side-scan sonar survey kit",
+    "desc": "Designed and developed a side-scan sonar survey kit (Tow Fish) for Marine Sonic systems ",
+    "image": "sss",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
@@ -60,9 +60,9 @@
     }
   },
   {
-    "name": "ResumeGen",
+    "name": "A2 BOT Prototype",
     "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
+    "image": "A2BOT_2",
     "category": "unmanned",
     "links": {
       "view": "https://resumegenx.netlify.app/",
