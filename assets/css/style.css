@@ -718,12 +718,13 @@ header .navbar ul li a:hover {
   padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   font-size: 1.5rem;
-  color: #fff;
-  background: rgb(12, 12, 12);
+  color: #000000;
+  background: #D9C2FB;
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  color: #ffffff;
+  background: #c40feb;
 }
 .work .viewall {
   display: flex;
