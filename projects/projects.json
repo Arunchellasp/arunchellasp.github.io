@@ -30,9 +30,9 @@
     }
   },
   {
-    "name": "Weatherly equipments ",
-    "desc": "Native equipments  app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "weatherlyequipments ",
+    "name": "SMPL_U_CAM_COMPACT",
+    "desc": "Designed and developed a compact underwater camera for AUV project",
+    "image": "SMPL_Compact",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
