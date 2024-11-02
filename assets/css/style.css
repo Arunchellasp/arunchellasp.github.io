@@ -251,8 +251,8 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #000000;
-  box-shadow: 0px 5px 18px #000000;
+  background: #c40feb;
+  box-shadow: 0px 5px 18px #c40feb;
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -266,10 +266,11 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #D9C2FB;
+  color: #000000;
 }
 .home .btn:hover i {
-  transform: translateX(5px);
+  transform: translateX(1px);
 }
 /* social icons start */
 .socials {
@@ -289,7 +290,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #000000;
+  color: #ffffff;
   background-color: #c40feb;
   width: 44px;
   height: 44px;
@@ -764,11 +765,12 @@ header .navbar ul li a:hover {
 
 /* experience section starts */
 .experience{
+  margin-top: 0.3rem;
   background: #ffffff;
 }
 .experience .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .experience .timeline::after {
@@ -864,6 +866,7 @@ header .navbar ul li a:hover {
 }
 /* view all button */
 .morebtn {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
