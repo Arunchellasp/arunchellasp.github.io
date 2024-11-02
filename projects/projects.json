@@ -22,7 +22,7 @@
   {
     "name": "side-scan sonar survey kit",
     "desc": "Designed and developed a side-scan sonar survey kit (Tow Fish) for Marine Sonic systems ",
-    "image": "sss",
+    "image": "sss_1",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
@@ -32,7 +32,7 @@
   {
     "name": "SMPL_U_CAM_COMPACT",
     "desc": "Designed and developed a compact underwater camera for AUV project",
-    "image": "SMPL_Compact",
+    "image": "SMPL_Compact_1",
     "category": "equipments ",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_equipments dev-equipments studio-java-activity-6955224473822199808-JT0j",
@@ -150,9 +150,9 @@
     }
   },
   {
-    "name": "Webview App",
+    "name": "CTD",
     "desc": "It's an equipments  app which uses web view component for displaying content. This app provides many different features.",
-    "image": "webviewapp",
+    "image": "CTD",
     "category": "equipments ",
     "links": {
       "view": "https://github.com/jigar-sable/equipments -Webview#webapp--equipments -webview-app",
