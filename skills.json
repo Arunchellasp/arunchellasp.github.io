@@ -20,24 +20,24 @@
         "icon": "TEXAS"
     },
     {
-        "name": "equipments ",
-        "icon": "https://img.icons8.com/fluency/48/000000/equipments -os.png"
+        "name": "",
+        "icon": "NI"
     },
     {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+        "name": "",
+        "icon": "GAZEBO"
     },
     {
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
+        "name": "",
+        "icon": "Qt"
     },
     {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+        "name": "",
+        "icon": "SOLIDWORK"
     },
     {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "name": "",
+        "icon": "ONSHAPE"
     },
     {
         "name": "Sass",
