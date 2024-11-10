@@ -461,77 +461,94 @@ header .navbar ul li a:hover {
 /* about section ends */
 
 /* skills section starts */
+/* Base styles */
 .skills {
   min-height: 90vh;
   background: #fff;
 }
+
 .skills h2 {
   color: #000000;
 }
 .skills .heading span {
   color: #c40feb;
 }
+
+/* Container Styles */
 .skills .container {
   background: #E8E6E9;
   color: #000000;
   border-radius: 1rem;
   padding: 2rem;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
 }
-.skills .container .row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
+
+/* Category Styles */
+.category {
+  margin-bottom: 2rem;
+    
 }
-.skills .container .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
+
+.category h3 {
   background: #D9C2FB;
-  transition: 0.2s;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 1rem;
+  font-size: 2.1rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: center; /* Center the text within the h3 */
+  padding: 1rem; /* Add some padding to give space around the text */
 }
-.skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(255, 255, 255, 0.8) !important;
-  background-color: rgba(255, 255, 255, 0.9) !important;
+
+/* Row to hold icons */
+.skills-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 20px;
+  justify-items: center; /* Center-align items horizontally */
+  margin-bottom: 40px;
 }
-.skills .container .bar .info {
-  display: flex;
-  flex-direction: column;
+
+/* Skill Item Styles */
+.skill-item {
+  display: grid;
+  grid-template-rows: auto auto; /* Create two rows: one for icon and one for text */
   align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  text-align: center;
 }
-.skills .container .bar .info i {
-  font-size: 4rem;
+
+/* typical size */
+
+.skill-item img {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px; /* Space between icon and text */
+  max-width: 100%; /* Prevents icons from exceeding their container's width */
 }
-.skills .container .bar .info span {
-  font-size: 2rem;
-  font-weight: 500;
+
+/* Text Style */
+.skill-item span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
   font-family: "Poppins";
-  margin-left: 0.5rem;
+  font-weight: 600;
+  color: #000000;
 }
-/* skills media queries starts*/
-@media screen and (max-width: 600px) {
-  .skills .container {
-    padding: 0;
-    margin: 0;
-  }
-  .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-row {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Smaller grid items on small screens */
   }
   .skills .container {
     margin-top: 5px;
     width: 100%;
   }
 }
-/* skills media queries ends*/
-/* skills section ends */
+
 
 /* education section starts */
 .education {

@@ -1,22 +1,22 @@
 [
     {
-        "name": "",
+        "name": "STM32",
         "icon": "STM32"
     },
     {
-        "name": "",
+        "name": "ROS",
         "icon": "ROS"
     },
     {
-        "name": "",
+        "name": "LabView",
         "icon": "LABVIEW"
     },
     {
-        "name": "",
+        "name": "Matlab",
         "icon": "MATLAB"
     },
     {
-        "name": "",
+        "name": "Texas Instruments",
         "icon": "TEXAS"
     },
     {
@@ -36,20 +36,20 @@
         "icon": "SOLIDWORK"
     },
     {
-        "name": "",
+        "name": "Onshape",
         "icon": "ONSHAPE"
     },
     {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+        "name": "OpenCV",
+        "icon": "OPENCV"
     },
     {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "name": "",
+        "icon": "NVIDIA"
     },
     {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "name": "",
+        "icon": "HYPACK"
     },
     {
         "name": "JavaScript",
