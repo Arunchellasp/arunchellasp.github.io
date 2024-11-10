@@ -347,7 +347,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  min-height: 70vh;
+  min-height: 50vh;
   background: rgb(255, 255, 255);
 }
 .about .row {
@@ -660,6 +660,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
+  min-height: 50vh;
   background: #ffffff;
 }
 .work h2 {
@@ -782,6 +783,7 @@ header .navbar ul li a:hover {
 
 /* experience section starts */
 .experience{
+  min-height: 50vh;
   margin-top: 0.3rem;
   background: #ffffff;
 }
