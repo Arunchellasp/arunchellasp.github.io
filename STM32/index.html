@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="keywords" content="jigar sable, portfolio, jigar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Arun's Portfolio. Embedded systems Engineer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
@@ -13,10 +16,15 @@
 </head>
 <body oncontextmenu="return false">
 
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
 <!-- navbar starts -->
 <header>
   <a href="/" class="logo">
-    <img src="/assets/images/logo_1.png" alt="Arun Logo" style="height: 65px; vertical-align: middle;">
+    <img src="./assets/images/logo_1.png" alt="Arun Logo" style="height: 65px; vertical-align: middle;">
 </a>
 
 
@@ -35,14 +43,110 @@
 </header>
 <!-- navbar ends -->
 
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm  <span>Arun</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/arun-p-6ab825154/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/Arunchellasp" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="X" href="https://x.com/Arun375126121" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/+918110961093" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/a___ru___n/?hl=en"><i class="fab fa-instagram" target="_blank"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/STM32.png" alt="STM32">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/Arun_About.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Arun</h3>
+        <span class="tag">Embedded systems Engineer</span>
+        
+        <p>As a Embedded Engineer, I specialize in developing products that perform effectively across diverse environments, 
+          including air, ground, water surface, and underwater. My expertise includes product design, project management, 
+          stakeholder coordination, technology selection, and lifecycle management. With a solid foundation in unmanned systems, 
+          embedded systems, robotics, and industrial automation, I provide innovative solutions to tackle real-world challenges. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> phone : </span> +91 8110961093</p>
+              <p><span> email : </span> arunchellasp@gmail.com</p>
+              <p><span> place : </span> Chennai,Tamil Nadu,India - 600024</p>
+              
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/14dYn7_4ugt27OavzzBolDOtg0KiRvE9T/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+ <!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
 <!-- experience section starts -->
 <section class="experience" id="experience">
 
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
-  <div class="quote">
-    <span>every experience in your life is being orchestrated to teach you something you need to know to move
-      forward.</span>
-  </div>
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
 
   <div class="timeline">
 
@@ -52,8 +156,8 @@
           <h2>Samhitha Marine Private Limited</h2>
         </div>
         <div class="desc">
-          <h3>Project Engineer</h3>
-          <p>04/05/2022 – 24/09/2024</p>
+            <h3>Project Engineer</h3>
+            <p>04/05/2022 – 24/09/2024</p>
         </div>
       </div>
     </div>
@@ -64,8 +168,8 @@
           <h2>Vikra Ocean Technology</h2>
         </div>
         <div class="desc">
-          <h3>Product Development Engineer</h3>
-          <p>04/11/2020 – 28/04/2022</p>
+            <h3>Product Development Engineer</h3>
+            <p>04/11/2020 – 28/04/2022</p>
         </div>
       </div>
     </div>
@@ -76,8 +180,8 @@
           <h2>5th Mitsubishi Electric Cup</h2>
         </div>
         <div class="desc">
-          <h3>National Level Competition for factory Automation</h3>
-          <p>Silver Cup Winner - February 2020</p>
+            <h3>National Level Competition for factory Automation</h3>
+            <p>Silver Cup Winner - February 2020</p>
         </div>
       </div>
     </div>
@@ -88,8 +192,8 @@
           <h2>All India Council for Technical Education (AICTE)</h2>
         </div>
         <div class="desc">
-          <h3>WINNER OF NATIONAL CONVENTION UNDER CHHATRA VISHWAKARMA AWARDS - 2019</h3>
-          <p>24th February, 2020 at AICTE HQ., New Delhi</p>
+            <h3>WINNER OF NATIONAL CONVENTION UNDER CHHATRA VISHWAKARMA AWARDS - 2019</h3>
+            <p>24th February, 2020 at AICTE HQ., New Delhi</p>
         </div>
       </div>
     </div>
@@ -99,98 +203,271 @@
           <h2>Crion Technologies</h2>
         </div>
         <div class="desc">
-          <h3>Electronics Design Engineer | Internship</h3>
-          <p>1st May 2019 to 7th Jun 2019 </p>
+            <h3>Electronics Design Engineer | Internship</h3>
+            <p>1st May 2019 to 7th Jun 2019 </p>
         </div>
       </div>
     </div>
-
     <div class="container left">
       <div class="content">
         <div class="tag">
           <h2>Truekem Leather Manufacturer</h2>
         </div>
         <div class="desc">
-          <h3>factory Automation and human safety system Development | Internship</h3>
-          <p>April 2018 - April 2019</p>
+            <h3>factory Automation and human safety system Development | Internship</h3>
+            <p>April 2018 - April 2019</p>
         </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>4th Mitsubishi Electric Cup</h2>
-        </div>
-        <div class="desc">
-          <h3>National Level Competition for factory Automation</h3>
-          <p>Runner-up - 15th to 16th February 2019</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>All India Council for Technical Education (AICTE)</h2>
-        </div>
-        <div class="desc">
-          <h3>WINNER OF NATIONAL CONVENTION UNDER CHHATRA VISHWAKARMA AWARDS</h3>
-          <p>25th & 26th Jun, 2018 at AICTE HQ., New Delhi</p>
-        </div>
-      </div>
-    </div>
     
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Garuda Aerospace (P) Ltd</h2>
-        </div>
-        <div class="desc">
-          <h3> Quad Copter Building | Internship</h3>
-          <p>20th June 2017 to 29th October 2017</p>
-        </div>
       </div>
     </div>
-  
 
-  <div class="container left">
-    <div class="content">
-      <div class="tag">
-        <h2>Garuda Aerospace (P) Ltd</h2>
-      </div>
-      <div class="desc">
-        <h3> Basic Electronics | Internship</h3>
-        <p>30th Jan 2017 to 21st April 2017</p>
-      </div>
-    </div>
-  </div>
-
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Garuda Aerospace (P) Ltd</h2>
-        </div>
-        <div class="desc">
-          <h3> Flying Simulation (Fixed wing & multi copters) | Internship</h3>
-          <p>10th Nov 2016 to 29th Nov 2016</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
   <div class="morebtn">
-    <a href="/#experience" class="btn">
-      <i class="fas fa-arrow-left"></i>
-      <span>Back to Home</span>
-    </a>
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
   </div>
 
-  </div>
+</div>
+
 </section>
 <!-- experience section ends -->
+
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+  <div class="container">
+    <!-- Hardware Skills -->
+    <div class="category">
+      <h3>Hardware</h3>
+      <div class="skills-row">
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/STM32.png" alt="STM32" />
+          <span>STM32</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/ESP32.png" alt="ESP32" />
+          <span>ESP32</span>
+        </div>
+
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/TEXAS.png" alt="TEXAS" />
+          <span>TEXAS</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/ARDUINO.png" alt="ARDUINO" />
+          <span>ARDUINO</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/NI.png" alt="NI" />
+          <span>NI</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/NVIDIA.png" alt="NVIDIA" />
+          <span>NVIDIA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Software Skills -->
+    <div class="category">
+      <h3>Software</h3>
+      <div class="skills-row">
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/ROS.png" alt="ROS" />
+          <span>ROS</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/GAZEBO.png" alt="GAZEBO" />
+          <span>GAZEBO</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/Tensorflow.png" alt="Tensorflow" />
+          <span>Tensorflow</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/PYTORCH.png" alt="PYTORCH" />
+          <span>PYTORCH</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/OPENCV.png" alt="OPENCV" />
+          <span>OPENCV</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/Qt.png" alt="Qt" />
+          <span>Qt</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/RTOS.png" alt="RTOS" />
+          <span>RTOS</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/ZEPHYR.png" alt="ZEPHYR" />
+          <span>ZEPHYR</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/MATLAB.png" alt="MATLAB" />
+          <span>MATLAB</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/LABVIEW.png" alt="LabVIEW" />
+          <span>LabVIEW</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/HYPACK.png" alt="HYPACK" />
+          <span>HYPACK</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Programming Languages -->
+    <div class="category">
+      <h3>Programming Languages</h3>
+      <div class="skills-row">
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/C.png" alt="C" />
+          <span>C</span>
+        </div>
+        
+        <div class="skill-item">
+          <img src="/assets/images/skills/CPP.png" alt="CPP" />
+          <span>C++</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/PYTHON.png" alt="PYTHON" />
+          <span>PYTHON</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/JS.png" alt="JS" />
+          <span>Node JS</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/QML.png" alt="QML" />
+          <span>QML</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/LadderLogic.png" alt="LadderLogic" />
+          <span>LadderLogic</span>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- CAD -->
+    <div class="category">
+      <h3>CAD</h3>
+      <div class="skills-row">
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/KICAD.png" alt="KICAD" />
+          <span>KICAD</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/SOLIDWORK.png" alt="SOLIDWORK" />
+          <span>SOLIDWORK</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="/assets/images/skills/ONSHAPE.png" alt="ONSHAPE" />
+          <span>ONSHAPE</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+
+
+    <div class="box-container">
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college_1.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Engineering in Electronics and Communication</h3>
+        <p>Agni College of Technology</p>
+        <h4>2016-2020 | Chennai</h4>
+        </div>
+    </div>
+</div>
+</section>
+<!-- education section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+   
+      <form id="contact-form">
+        <div class="form-group">
+            <div class="field">
+                <input type="text" name="name" placeholder="Name" required>
+                <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+                <input type="text" name="email" placeholder="Email" required>
+                <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+                <input type="text" name="phone" placeholder="Phone">
+                <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+                <textarea placeholder="Message" name="message" required></textarea>
+                <i class="fas fa-comment-dots"></i>
+            </div>
+        </div>
+        <div class="button-area">
+            <button type="submit"> 
+                Submit <i class="fa fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
 
 <!-- footer section starts -->
 <section class="footer">
@@ -233,8 +510,9 @@
 </section>
 <!-- footer section ends -->
 
+
 <!-- scroll top btn -->
-<a href="#experience" class="fas fa-angle-up" id="scroll-top"></a>
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
 <!-- scroll back to top -->
 
 
@@ -242,11 +520,27 @@
 <!-- jquery cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <!-- scroll reveal anim -->
 <script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
-<script src="./script.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </body>
 </html>
