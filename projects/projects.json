@@ -269,6 +269,19 @@
       "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
     }
   },
+
+  {
+    "name": "STM32",
+    "desc": "STM32 Development and Resource",
+    "image": "STM32",
+    "category": "resource",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
+    }
+  },
+
+
   {
     "name": "Old Websites",
     "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
